@@ -11,8 +11,8 @@ const Navbar = () => {
         <li><a href="">Support</a></li>
     </>
     return (
-        <div>
-            <div className="navbar bg-white text-black p-[0px] m-[0px]">
+        <div className='max-w-screen-lg m-auto bg-transparent'>
+            <div className="navbar text-black p-[0px] m-[0px]">
                 <div className="navbar-start">
 
                     <div className="navbar-center flex ">

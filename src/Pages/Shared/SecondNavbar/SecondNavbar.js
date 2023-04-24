@@ -13,7 +13,8 @@ const SecondNavbar = () => {
     </>
     return (
         <div>
-            <div className="navbar bg-white text-black m-0 p-0">
+            <hr className='text-[#e2e8f0]'></hr>
+            <div className="navbar text-black m-0 p-0 lg:py-5 max-w-screen-lg m-auto">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -44,7 +45,7 @@ const SecondNavbar = () => {
                             {items}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost normal-case text-xl">MyComm</a>
+                    <a className="btn btn-ghost normal-case text-xl"><span className='text-primary'>MyCom</span>M</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal">
@@ -63,24 +64,28 @@ const SecondNavbar = () => {
                     </ul>
                 </div>
             </div>
-            <div className="navbar bg-primary selected">
-                <div className="navbar-start">
-                    <select className="select w-full max-w-xs text-black">
-                        <option> <AiOutlineBars />All Categories</option>
-                        <option>Homer</option>
-                        <option>Marge</option>
-                        <option>Bart</option>
-                        <option>Lisa</option>
-                        <option>Maggie</option>
-                    </select>
-                </div>
-                <div className="navbar-center text-white hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1">
-                        {items}
-                    </ul>
-                </div>
-                <div className="navbar-end">
-                    <a className="btn rounded-none text-xs">Become a seller<FaGreaterThan className='text-xs ml-1' /></a>
+            <div className="bg-primary selected">
+                <div className='max-w-screen-lg m-auto'>
+                    <div className='navbar'>
+                        <div className="navbar-start">
+                            <select className="select w-full max-w-xs text-black">
+                                <option> <AiOutlineBars />All Categories</option>
+                                <option>Homer</option>
+                                <option>Marge</option>
+                                <option>Bart</option>
+                                <option>Lisa</option>
+                                <option>Maggie</option>
+                            </select>
+                        </div>
+                        <div className="navbar-center text-white hidden lg:flex">
+                            <ul className="menu menu-horizontal px-1">
+                                {items}
+                            </ul>
+                        </div>
+                        <div className="navbar-end">
+                            <a className="btn rounded-none text-xs">Become a seller<FaGreaterThan className='text-xs ml-1' /></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div >
