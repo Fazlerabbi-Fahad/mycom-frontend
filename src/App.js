@@ -1,11 +1,10 @@
 import './App.css';
-import Home from './Pages/Home/Home/Home';
+import TermsAndCondition from './Pages/TermsAndCondition/TermsAndCondition';
 
 function App() {
   return (
     <div className="bg-[#f8f8f8]">
-      <Home></Home>
-
+      <TermsAndCondition></TermsAndCondition>
     </div>
   );
 }
