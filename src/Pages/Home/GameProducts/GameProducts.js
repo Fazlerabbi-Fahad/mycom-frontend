@@ -33,7 +33,7 @@ const GameProducts = () => {
                                 <h2 className="font-semibold text-sm">Xoggle aute et pariatur adipisicing nostrud et </h2>
                                 <p className='text-[red] font-semibold'>$18.73</p>
                                 <div className="card-actions justify-end">
-                                    <button className="btn btn-primary w-full"><HiOutlineShoppingBag className='me-1' />Buy Now</button>
+                                    <button className="btn btn-secondary w-full"><HiOutlineShoppingBag className='me-1' />Buy Now</button>
                                 </div>
                             </div>
                         </div>
@@ -52,7 +52,7 @@ const GameProducts = () => {
                                 <h2 className="font-semibold text-sm">Xoggle aute et pariatur adipisicing nostrud et </h2>
                                 <p className='text-[red] font-semibold'>$18.73</p>
                                 <div className="card-actions justify-end">
-                                    <button className="btn btn-primary w-full"><HiOutlineShoppingBag className='me-1' />Buy Now</button>
+                                    <button className="btn btn-secondary w-full"><HiOutlineShoppingBag className='me-1' />Buy Now</button>
                                 </div>
                             </div>
                         </div>
@@ -71,7 +71,7 @@ const GameProducts = () => {
                                 <h2 className="font-semibold text-sm">Xoggle aute et pariatur adipisicing nostrud et </h2>
                                 <p className='text-[red] font-semibold'>$18.73</p>
                                 <div className="card-actions justify-end">
-                                    <button className="btn btn-primary w-full"><HiOutlineShoppingBag className='me-1' />Buy Now</button>
+                                    <button className="btn btn-secondary w-full"><HiOutlineShoppingBag className='me-1' />Buy Now</button>
                                 </div>
                             </div>
                         </div>
@@ -90,10 +90,11 @@ const GameProducts = () => {
                                 <h2 className="font-semibold text-sm">Xoggle aute et pariatur adipisicing nostrud et </h2>
                                 <p className='text-[red] font-semibold'>$18.73</p>
                                 <div className="card-actions justify-end">
-                                    <button className="btn btn-primary w-full"><HiOutlineShoppingBag className='me-1' />Buy Now</button>
+                                    <button className="btn btn-secondary w-full"><HiOutlineShoppingBag className='me-1' />Buy Now</button>
                                 </div>
                             </div>
                         </div>
+
 
                     </div>
                 </div>

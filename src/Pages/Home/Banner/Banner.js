@@ -5,14 +5,14 @@ import { FaGreaterThan } from "react-icons/fa";
 const Banner = () => {
     return (
         <div className='max-w-screen-lg m-auto'>
-            <div className='grid lg:grid-cols-3 md:grid-cols-1 lg:mt-12 w-full lg:h-[95vh] '>
+            <div className='grid lg:grid-cols-3 md:grid-cols-1 w-full lg:h-[95vh] '>
                 <div className='grid lg:col-span-2 lg:grid-rows-1 sm:w-[95%] h-[100%] bg-[#7dd3fc] sm:mx-auto'>
                     <div className="card card-side">
                         <div className="m-auto">
                             <p>Bangladesh</p>
                             <h2 className="card-title">New album is released!</h2>
                             <div className="card-actions justify-start">
-                                <button className="btn btn-ghost">Shop Now<FaGreaterThan className='text-xs ml-1' /></button>
+                                <button className="btn btn-ghost text-secondary">Shop Now<FaGreaterThan className='text-xs ml-1' /></button>
                             </div>
                         </div><img src={Bangldesh} className='w-[50%] h-[60%] m-auto' alt="Album" />
                     </div>
@@ -24,7 +24,7 @@ const Banner = () => {
                                 <p>Bangladesh</p>
                                 <h2 className="card-title">New album is released!</h2>
                                 <div className="card-actions justify-start">
-                                    <button className="btn btn-ghost">Shop Now<FaGreaterThan className='text-xs ml-1' /></button>
+                                    <button className="btn btn-ghost text-secondary">Shop Now<FaGreaterThan className='text-xs ml-1' /></button>
                                 </div>
                             </div><img src={Bangldesh} className='w-[50%] h-[60%] m-auto' alt="Album" />
                         </div>
@@ -35,7 +35,7 @@ const Banner = () => {
                                 <p>Bangladesh</p>
                                 <h2 className="card-title">New album is released!</h2>
                                 <div className="card-actions justify-start">
-                                    <button className="btn btn-ghost">Shop Now<FaGreaterThan className='text-xs ml-1' /></button>
+                                    <button className="btn btn-ghost text-secondary">Shop Now<FaGreaterThan className='text-xs ml-1' /></button>
                                 </div>
                             </div><img src={Bangldesh} className='w-[50%] h-[60%] m-auto' alt="Album" />
                         </div>

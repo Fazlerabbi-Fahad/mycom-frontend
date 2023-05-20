@@ -2,13 +2,14 @@ import React from 'react';
 import USA from "../../../Images/Flag/USA.jpg";
 import Bangladesh from "../../../Images/Flag/Bangladesh.jpg";
 import './Navbar.css';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 
     const menuItems = <>
         <li><a>Account</a></li>
-        <li><a href="">Track Order</a></li>
-        <li><a href="">Support</a></li>
+        <li><Link to='/trackorder'>Track Order</Link></li>
+        <li><Link to='/about'>Support</Link></li>
     </>
     return (
         <div className='max-w-screen-lg m-auto bg-transparent'>

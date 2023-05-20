@@ -2,13 +2,15 @@ import React from 'react';
 import { AiOutlineHeart, AiOutlineUser, AiOutlineBars } from "react-icons/ai";
 import { FiShoppingCart } from "react-icons/fi";
 import { FaGreaterThan } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const SecondNavbar = () => {
     const items = <>
-        <li><a href="">Home</a></li>
+        <li><Link to='/home'>Home</Link></li>
         <li><a href="">Products</a></li>
         <li><a href="">Shop</a></li>
-        <li><a href="">Blog</a></li>
+        <li><Link to='/about'>About</Link></li>
+        <li><Link to='/blog'>Blog</Link></li>
         <li><a href="">Contact</a></li>
     </>
     return (
@@ -45,14 +47,14 @@ const SecondNavbar = () => {
                             {items}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost normal-case text-xl"><span className='text-primary'>MyCom</span>M</a>
+                    <Link to='/' className="font-bold normal-case text-xl ms-3"><span className='text-primary'>MyCom</span><span className='text-secondary'>M</span></Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal">
 
                         <li className='rounded'>
                             <input type="text" placeholder='search product' className="rounded" />
-                            <button type="submit" class="btn btn-primary text-white text-xs">Search</button>
+                            <button type="submit" class="btn btn-secondary text-white text-xs">Search</button>
                         </li>
                     </ul>
                 </div>

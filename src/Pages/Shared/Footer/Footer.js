@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
         <div className='max-w-screen-lg m-auto'>
             <div>
                 <div className='p-10 text-center'>
-                    <a className=" text-2xl font-black m-auto text-center"><span className='text-primary'>MyCom</span>M</a>
+                    <Link to='/' className=" text-2xl font-black m-auto text-center"><span className='text-primary'>MyCom</span><span className='text-secondary'>M</span></Link>
 
                 </div>
                 <hr className='mb-5 text-[#e2e8f0]'></hr>
@@ -18,18 +19,18 @@ const Footer = () => {
                 </div>
                 <div>
                     <span className="footer-title">Feature</span>
-                    <a className="link link-hover">About Us</a>
-                    <a className="link link-hover">Terms Condition</a>
+                    <Link to='/about' className="link link-hover">About Us</Link>
+                    <Link to='/termsandcondition'>Terms & Condition</Link>
                 </div>
                 <div>
                     <span className="footer-title">General Links</span>
-                    <a className="link link-hover">Blog</a>
+                    <Link to='/blog' className="link link-hover">Blog</Link>
                     <a className="link link-hover">Become Seller</a>
                 </div>
                 <div>
                     <span className="footer-title">Helpful</span>
-                    <a className="link link-hover">Support</a>
-                    <a className="link link-hover">FAQ</a>
+                    <Link to='/about' className="link link-hover">Support</Link>
+                    <Link to='/faq'>FAQ</Link>
                 </div>
             </footer >
             <hr className='text-[#e2e8f0]'></hr>

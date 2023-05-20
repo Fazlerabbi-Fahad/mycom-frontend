@@ -6,7 +6,7 @@ import { HiOutlineShoppingBag } from "react-icons/hi";
 const NewArrivals = () => {
     return (
         <Animated animationIn="slideInUp" animationInDuration="3000" isVisible={true}>
-            <div className='max-w-screen-lg m-auto'>
+            <div className='max-w-screen-lg m-auto mb-20'>
                 <div className='lg:mt-[200px] sm:mt-20'>
                     <div className='flex justify-between'>
                         <h2 className='font-bold lg:text-3xl text-xl'>New Arrivals</h2>
@@ -33,7 +33,7 @@ const NewArrivals = () => {
                                 <h2 className="font-semibold text-sm">Xoggle aute et pariatur adipisicing nostrud et </h2>
                                 <p className='text-[red] font-semibold'>$18.73</p>
                                 <div className="card-actions justify-end">
-                                    <button className="btn btn-primary w-full"><HiOutlineShoppingBag className='me-1' />Buy Now</button>
+                                    <button className="btn btn-secondary w-full"><HiOutlineShoppingBag className='me-1' />Buy Now</button>
                                 </div>
                             </div>
                         </div>
@@ -52,7 +52,7 @@ const NewArrivals = () => {
                                 <h2 className="font-semibold text-sm">Xoggle aute et pariatur adipisicing nostrud et </h2>
                                 <p className='text-[red] font-semibold'>$18.73</p>
                                 <div className="card-actions justify-end">
-                                    <button className="btn btn-primary w-full"><HiOutlineShoppingBag className='me-1' />Buy Now</button>
+                                    <button className="btn btn-secondary w-full"><HiOutlineShoppingBag className='me-1' />Buy Now</button>
                                 </div>
                             </div>
                         </div>
@@ -71,7 +71,7 @@ const NewArrivals = () => {
                                 <h2 className="font-semibold text-sm">Xoggle aute et pariatur adipisicing nostrud et </h2>
                                 <p className='text-[red] font-semibold'>$18.73</p>
                                 <div className="card-actions justify-end">
-                                    <button className="btn btn-primary w-full"><HiOutlineShoppingBag className='me-1' />Buy Now</button>
+                                    <button className="btn btn-secondary w-full"><HiOutlineShoppingBag className='me-1' />Buy Now</button>
                                 </div>
                             </div>
                         </div>
@@ -90,7 +90,7 @@ const NewArrivals = () => {
                                 <h2 className="font-semibold text-sm">Xoggle aute et pariatur adipisicing nostrud et </h2>
                                 <p className='text-[red] font-semibold'>$18.73</p>
                                 <div className="card-actions justify-end">
-                                    <button className="btn btn-primary w-full"><HiOutlineShoppingBag className='me-1' />Buy Now</button>
+                                    <button className="btn btn-secondary w-full"><HiOutlineShoppingBag className='me-1' />Buy Now</button>
                                 </div>
                             </div>
                         </div>
@@ -109,7 +109,7 @@ const NewArrivals = () => {
                                 <h2 className="font-semibold text-sm">Xoggle aute et pariatur adipisicing nostrud et </h2>
                                 <p className='text-[red] font-semibold'>$18.73</p>
                                 <div className="card-actions justify-end">
-                                    <button className="btn btn-primary w-full"><HiOutlineShoppingBag className='me-1' />Buy Now</button>
+                                    <button className="btn btn-secondary w-full"><HiOutlineShoppingBag className='me-1' />Buy Now</button>
                                 </div>
                             </div>
                         </div>
@@ -128,7 +128,7 @@ const NewArrivals = () => {
                                 <h2 className="font-semibold text-sm">Xoggle aute et pariatur adipisicing nostrud et </h2>
                                 <p className='text-[red] font-semibold'>$18.73</p>
                                 <div className="card-actions justify-end">
-                                    <button className="btn btn-primary w-full"><HiOutlineShoppingBag className='me-1' />Buy Now</button>
+                                    <button className="btn btn-secondary w-full"><HiOutlineShoppingBag className='me-1' />Buy Now</button>
                                 </div>
                             </div>
                         </div>
@@ -147,7 +147,7 @@ const NewArrivals = () => {
                                 <h2 className="font-semibold text-sm">Xoggle aute et pariatur adipisicing nostrud et </h2>
                                 <p className='text-[red] font-semibold'>$18.73</p>
                                 <div className="card-actions justify-end">
-                                    <button className="btn btn-primary w-full"><HiOutlineShoppingBag className='me-1' />Buy Now</button>
+                                    <button className="btn btn-secondary w-full"><HiOutlineShoppingBag className='me-1' />Buy Now</button>
                                 </div>
                             </div>
                         </div>
@@ -166,10 +166,11 @@ const NewArrivals = () => {
                                 <h2 className="font-semibold text-sm">Xoggle aute et pariatur adipisicing nostrud et </h2>
                                 <p className='text-[red] font-semibold'>$18.73</p>
                                 <div className="card-actions justify-end">
-                                    <button className="btn btn-primary w-full"><HiOutlineShoppingBag className='me-1' />Buy Now</button>
+                                    <button className="btn btn-secondary w-full"><HiOutlineShoppingBag className='me-1' />Buy Now</button>
                                 </div>
                             </div>
                         </div>
+
 
                     </div>
                 </div>

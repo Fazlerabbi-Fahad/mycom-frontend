@@ -1,10 +1,12 @@
 import './App.css';
-import TermsAndCondition from './Pages/TermsAndCondition/TermsAndCondition';
+import routes from "./Routes/Routes/Routes";
+import { RouterProvider } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="bg-[#f8f8f8]">
-      <TermsAndCondition></TermsAndCondition>
+    <div className="bg-white">
+      <RouterProvider router={routes}>
+      </RouterProvider>
     </div>
   );
 }

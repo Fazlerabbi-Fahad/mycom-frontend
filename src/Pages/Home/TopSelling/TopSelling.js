@@ -31,7 +31,7 @@ const TopSelling = () => {
                                     <h2 className="font-semibold text-sm">Xoggle aute et pariatur adipisicing nostrud et </h2>
                                     <p className='text-[red] font-semibold'>$18.73</p>
                                     <div className="card-actions justify-start">
-                                        <button className="btn btn-primary">Add To Cart</button>
+                                        <button className="btn btn-secondary">Add To Cart</button>
                                     </div>
                                 </div>
                             </div>
@@ -50,7 +50,7 @@ const TopSelling = () => {
                                     <h2 className="font-semibold text-sm">Xoggle aute et pariatur adipisicing nostrud et </h2>
                                     <p className='text-[red] font-semibold'>$18.73</p>
                                     <div className="card-actions justify-start">
-                                        <button className="btn btn-primary">Add To Cart</button>
+                                        <button className="btn btn-secondary">Add To Cart</button>
                                     </div>
                                 </div>
                             </div>
@@ -69,7 +69,7 @@ const TopSelling = () => {
                                     <h2 className="font-semibold text-sm">Xoggle aute et pariatur adipisicing nostrud et </h2>
                                     <p className='text-[red] font-semibold'>$18.73</p>
                                     <div className="card-actions justify-start">
-                                        <button className="btn btn-primary">Add To Cart</button>
+                                        <button className="btn btn-secondary">Add To Cart</button>
                                     </div>
                                 </div>
                             </div>
@@ -88,11 +88,12 @@ const TopSelling = () => {
                                     <h2 className="font-semibold text-sm">Xoggle aute et pariatur adipisicing nostrud et </h2>
                                     <p className='text-[red] font-semibold'>$18.73</p>
                                     <div className="card-actions justify-start">
-                                        <button className="btn btn-primary">Add To Cart</button>
+                                        <button className="btn btn-secondary">Add To Cart</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
