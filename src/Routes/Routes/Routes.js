@@ -6,6 +6,8 @@ import About from "../../Pages/About/About";
 import Blogs from "../../Pages/Blog/Blogs";
 import TrackOrder from "../../Pages/TrackOrder/TrackOrder";
 import FAQ from "../../Pages/FAQ/FAQ";
+import Login from "../../Pages/Login/Login";
+import Contact from "./../../Pages/Contact/Contact";
 
 const routes = createBrowserRouter([
     {
@@ -39,6 +41,14 @@ const routes = createBrowserRouter([
             {
                 path: '/faq',
                 element: <FAQ></FAQ>
+            },
+            {
+                path: '/login',
+                element: <Login></Login>
+            },
+            {
+                path: '/contact',
+                element: <Contact></Contact>
             },
         ]
     },

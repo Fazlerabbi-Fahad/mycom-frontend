@@ -7,7 +7,7 @@ const FAQ = () => {
         <div>
             <Header>Frequently Asked Questions</Header>
             <div className='bg-[#f8f8f8]'>
-                <div className='lg:max-w-screen-lg m-auto'>
+                <div className='max-w-screen-lg m-auto'>
                     <div className='grid lg:grid-cols-2 grid-cols-1 gap-8 py-10'>
                         <div className='my-5'>
                             <h3 className='text-xl font-bold mb-5'>Frequently asked questions</h3>

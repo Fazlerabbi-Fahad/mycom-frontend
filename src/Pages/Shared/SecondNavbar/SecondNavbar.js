@@ -11,7 +11,7 @@ const SecondNavbar = () => {
         <li><a href="">Shop</a></li>
         <li><Link to='/about'>About</Link></li>
         <li><Link to='/blog'>Blog</Link></li>
-        <li><a href="">Contact</a></li>
+        <li><Link to='/contact'>Contact</Link></li>
     </>
     return (
         <div>

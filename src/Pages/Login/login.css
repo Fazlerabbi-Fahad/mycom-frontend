@@ -1,0 +1,10 @@
+@media only screen and (max-width: 768px) {
+    .shopping {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .shopping-img {
+        visibility: invisible;
+    }
+}
