@@ -2,7 +2,6 @@ import React from 'react';
 import shopping2 from "./../../Images/Abstract/shopping2.jpg";
 import { Link } from 'react-router-dom';
 import Subscription from "./../Home/Subscription/Subscription";
-import { FcGoogle } from "react-icons/fc";
 
 const Register = () => {
     return (
