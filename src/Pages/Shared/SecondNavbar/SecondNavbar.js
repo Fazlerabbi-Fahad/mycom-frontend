@@ -85,7 +85,7 @@ const SecondNavbar = () => {
                             </ul>
                         </div>
                         <div className="navbar-end">
-                            <a className="btn rounded-none text-xs">Become a seller<FaGreaterThan className='text-xs ml-1' /></a>
+                            <Link to='/becomeseller' className="btn rounded-none text-xs">Become a seller<FaGreaterThan className='text-xs ml-1' /></Link>
                         </div>
                     </div>
                 </div>

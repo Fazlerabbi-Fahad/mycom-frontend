@@ -8,6 +8,8 @@ import TrackOrder from "../../Pages/TrackOrder/TrackOrder";
 import FAQ from "../../Pages/FAQ/FAQ";
 import Login from "../../Pages/Login/Login";
 import Contact from "./../../Pages/Contact/Contact";
+import Register from "../../Pages/Register/Register";
+import BecomeSeller from "../../Pages/BecomeSeller/BecomeSeller";
 
 const routes = createBrowserRouter([
     {
@@ -49,6 +51,14 @@ const routes = createBrowserRouter([
             {
                 path: '/contact',
                 element: <Contact></Contact>
+            },
+            {
+                path: '/register',
+                element: <Register></Register>
+            },
+            {
+                path: '/becomeseller',
+                element: <BecomeSeller></BecomeSeller>
             },
         ]
     },

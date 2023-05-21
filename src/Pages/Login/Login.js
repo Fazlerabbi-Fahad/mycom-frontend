@@ -41,7 +41,7 @@ const Login = () => {
 
                                 <button className="btn btn-secondary rounded-none w-full mb-5">Login</button>
                                 <button className="btn btn-outline text-[#64748b] border-[#64748b] rounded-none w-full mb-2"><FcGoogle className='me-2'></FcGoogle>Sign in with Google</button>
-                                <p className='text-center tracking-wide leading-7 lg:text-md text-sm mb-1'><span className='text-[#64748b] font-normal me-2'>Dont’t have an account ?</span><Link to='/'>Sign up free</Link></p>
+                                <p className='text-center tracking-wide leading-7 lg:text-md text-sm mb-1'><span className='text-[#64748b] font-normal me-2'>Dont’t have an account ?</span><Link to='/register'>Sign up free</Link></p>
 
                             </div>
 
